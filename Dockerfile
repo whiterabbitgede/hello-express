@@ -28,8 +28,8 @@ RUN npm install
 #COPY . .
 
 
-# Expose port 3000 for the Nuxt app
-EXPOSE 3000
+# Expose port 4000 for the express app
+EXPOSE 4000
 
 # Start the Nuxt server
 CMD ["npm", "start"]
